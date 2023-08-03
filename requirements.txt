@@ -1,2 +1,2 @@
-import streamlit as st
-import pandas as pd
+streamlit==1.22.0
+pandas==2.0.1
