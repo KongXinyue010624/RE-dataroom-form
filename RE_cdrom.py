@@ -13,9 +13,15 @@ st.markdown('_Purchaser Name | Email | Contact Number | Postal Address | Unit Nu
 st.write('---------')
 st.file_uploader('Upload documents to be shared', accept_multiple_files=True, key=f'shared_documents')
 
+if st.button('Submit'):
+    st.write('Submitted')
+
+st.write('---------')
+
 def clear_form():
     for key in st.session_state.keys():
         del st.session_state[key]
 
 if st.button('Clear form'):
     clear_form()
+    
