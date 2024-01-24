@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'REAppServiceTest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3615B6880F4F4225942CFCD95EF44E8B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2A3211AB61E043ADAE07EBB7A4C6552B }}
