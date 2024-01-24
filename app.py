@@ -25,4 +25,4 @@ def clear_form():
 if st.button('Clear form'):
     clear_form()
 
-if __name__ == '__main__':     st.set_option('server.enableCORS', True) 
+
